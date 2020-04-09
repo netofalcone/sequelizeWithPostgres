@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img alt="GoStack" src="https://i.pinimg.com/originals/f2/c9/c5/f2c9c5be7c183632bde76c201d5ceca8.png" width="120px" height="240" />
+  <img alt="GoStack" src="https://i.pinimg.com/originals/f2/c9/c5/f2c9c5be7c183632bde76c201d5ceca8.png" width="120px" height="340" />
 </h1>
 
 <h3 align="center">
   SQL no Node.js com Sequelize
 </h3>
 
-<p align="center">Nesse API faço a utilização do Sequelize com Node, o código é baseado em uma aula da rocketseat, utilizando migrations, configuração do Sequelize, relacionamentos 1:N, relacionamentos N:N, queries complexas e filtragem!</p>
+<p align="center">Nesse API faço a utilização do Sequelize com Node, o código é baseado em uma aula da rocketseat, porém utilizei algumas novas feautures do ECMS6. Nessa API há migrations, configuração do Sequelize, relacionamentos 1:N, relacionamentos N:N, queries complexas e filtragem!</p>
 
 
 ## 👨🏼‍💻 Instrutor
@@ -32,9 +32,7 @@
 5. Rode `yarn sequelize db:create` para criar o banco de dados;
 6. Rode `yarn sequelize db:migrate` para executar as migrations;
 7. Rode `yarn dev` para iniciar o servidor.
-8. Importe o arquivo `Insomnia_2019-10-16.json` desse repositório no Insomnia;
-
 
 ---
 
-Feito com 💖 by Rocketseat 👋 [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+
