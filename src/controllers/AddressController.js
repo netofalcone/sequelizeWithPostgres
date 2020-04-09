@@ -1,7 +1,8 @@
 const User = require('../models/User');
 const Address = require('../models/Address');
 
-module.exports = {
+class AddressController {
+
   async index(req, res) {
     const { user_id } = req.params;
 
@@ -10,7 +11,7 @@ module.exports = {
     });
 
     return res.json(user.addresses);
-  },
+  }
 
   async store(req, res) {
     const { user_id } = req.params;
@@ -32,3 +33,5 @@ module.exports = {
     return res.json(address);
   }
 };
+
+export default new AddressController();

@@ -10,8 +10,7 @@ module.exports = {
         association: 'techs', 
         attributes: ['name'], 
         through: { 
-          attributes: ['tech_id']
-          // array vazio para nao precisar exibir a tabela pivô
+          attributes: []
         } 
       }
     })
@@ -32,7 +31,6 @@ module.exports = {
     const [ tech ] = await Tech.findOrCreate({
       where: { name }
     });
-
 
     await user.addTech(tech);
 
