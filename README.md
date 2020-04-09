@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="GoStack" src="https://i.pinimg.com/originals/f2/c9/c5/f2c9c5be7c183632bde76c201d5ceca8.png" width="120px" height="340" />
+  <img alt="GoStack" src="https://i.pinimg.com/originals/f2/c9/c5/f2c9c5be7c183632bde76c201d5ceca8.png" width="120px" height="140" />
 </h1>
 
 <h3 align="center">
